@@ -7,7 +7,7 @@ interface Props {
   setBusca: React.Dispatch<React.SetStateAction<string>>;
 }
 
-export default function SearchEngine({ busca, setBusca }: Props) {
+export  function SearchEngine({ busca, setBusca }: Props) {
   return (
     <div className={styles.buscador}>
       <input
